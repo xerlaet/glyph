@@ -1,0 +1,66 @@
+layout: { "qmk_keyboard": "crkbd/rev4_1", "layout_name":
+"LAYOUT_split_3x6_3_ex2" }
+
+layers:
+  # Base layer: Gallium Colstag
+  L0:
+    # Left half: top row
+    - [ Esc, B, L, D, C, V, "" ]
+    # Right half: top row
+    - [ "", J, Y, O, U, {"t":"/","s":"?"}, Bksp ]
+
+    # Left half: middle row
+    - [ Tab, N, R, T, S, G, "" ]
+    # Right half: middle row
+    - [ "", P, H, A, E, I, {"t":";","s":":"} ]
+
+    # Left half: bottom row
+    - [ LShift, X, Q, M, W, Z ]
+    # Right half: bottom row
+    - [ K, F, {"t":"'","s":"\""}, {"t":",","s":"<"}, {"t":".","s":">"}, RShift ]
+
+    # Thumb keys
+    - [ LCtrl, "MO L1", Space ]
+    - [ Enter, "MO L2", LAlt ]
+
+  # Symbol layer
+  L1:
+    # Left half: top row
+    - [ "~", "`", "#", "[", "]", "!", "" ]
+    # Right half: top row
+    - [ "", "*", "7", "8", "9", "/", "%" ]
+
+    # Left half: middle row
+    - [ "\\", "^", "$", "(", ")", "_", "" ]
+    # Right half: middle row
+    - [ "", "+", "4", "5", "6", "-", "→" ]
+
+    # Left half: bottom row
+    - [ LShift, "|", "&", "{", "}", "@" ]
+    # Right half: bottom row
+    - [ ".", "1", "2", "3", "0", "=" ]
+    
+    # Thumb keys
+    - [ LCtrl, {"t": "MO L1", "type": "held"}, Space ]
+    - [ Enter, "MO L2", LAlt ]
+
+  # Function layer
+  L2:
+    # Left half: top row
+    - [ Play Pause, Next, Vol+, Bri+, Pg Up, Del, "" ]
+    # Right half: top row
+    - [ "", Prt Scr, F7, F8, F9, F12, Ins ]
+
+    # Left half: middle row
+    - [ Mute, Prev, Vol-, Bri-, Pg Down, Super, "" ]
+    # Right half: middle row
+    - [ "", Home, F4, F5, F6, F11, Menu ]
+
+    # Left half: bottom row
+    - [ LShift, Ctrl+ Z, Ctrl+ X, Ctrl+ C, Ctrl+ V, Ctrl+ Shift+ Z ]
+    # Right half: bottom row
+    - [ End, F1, F2, F3, F10, Caps ]
+
+    # Thumb keys
+    - [ LCtrl, "MO L1", Space ]
+    - [ Enter, {"t": "MO L2", "type": "held"}, LAlt ]
