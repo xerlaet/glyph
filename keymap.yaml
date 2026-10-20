@@ -64,3 +64,24 @@ layers:
     # Thumb keys
     - [ LCtrl, "MO L1", Space ]
     - [ Enter, {"t": "MO L2", "type": "held"}, LAlt ]
+    
+  # Mouse layer
+  L3:
+    # Left half: top row
+    - [ "", "", "", "", "", "", "" ]
+    # Right half: top row
+    - [ "", "", Scroll Left, Scroll Down, Scroll Up, Scroll Right, "" ]
+
+    # Left half: middle row
+    - [ "", Slow, Right Click, Middle Click, Left Click, Fast, "" ]
+    # Right half: middle row
+    - [ "", "", Mouse Left, Mouse Down, Mouse Up, Mouse Right, "" ]
+
+    # Left half: bottom row
+    - [ LShift, "", Mouse Back, "", Mouse Forward, "" ]
+    # Right half: bottom row
+    - [ "", "", "", "", "", "" ]
+
+    # Thumb keys
+    - [ LCtrl, {"t": "MO L1", "type": "held"}, Space ]
+    - [ Enter, {"t": "MO L2", "type": "held"}, LAlt ]

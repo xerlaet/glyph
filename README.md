@@ -18,7 +18,7 @@ Gallium   b l d c v    j y o u
           x q m w z    k f
 ```
 
-I modified the symbol placement slightly to be more aesthetic on my keyboard. All the remaining keys that you would expect on a full sized keyboard are accessible through layers (by momentarily holding down L1 and L2)
+I modified the symbol placement slightly to be more aesthetic on my keyboard. All the remaining keys that you would expect on a full sized keyboard are accessible through layers (by momentarily holding down L1 and L2).
 
 ![Keymap](images/keymap.svg)
 
