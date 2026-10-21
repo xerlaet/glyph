@@ -57,7 +57,7 @@ layers:
     - [ "", Home, F4, F5, F6, F11, Menu ]
 
     # Left half: bottom row
-    - [ LShift, Ctrl+ Z, Ctrl+ X, Ctrl+ C, Ctrl+ V, Ctrl+ Shift+ Z ]
+    - [ LShift, Undo, Cut, Copy, Paste, Find ]
     # Right half: bottom row
     - [ End, F1, F2, F3, F10, Caps ]
 
@@ -68,19 +68,19 @@ layers:
   # Mouse layer
   L3:
     # Left half: top row
-    - [ "", "", "", "", "", "", "" ]
+    - [ RGB Hue+, RGB Hue-, RGB Sat+, RGB Sat-, RGB Bri+, RGB Bri-, "" ]
     # Right half: top row
-    - [ "", "", Scroll Left, Scroll Down, Scroll Up, Scroll Right, "" ]
+    - [ "", "", Scroll Left, Scroll Down, Scroll Up, Scroll Right, RGB Toggle ]
 
     # Left half: middle row
-    - [ "", Slow, Right Click, Middle Click, Left Click, Fast, "" ]
+    - [ "Accel 0", "Accel 1", Right Click, Middle Click, Left Click, Accel 2, "" ]
     # Right half: middle row
-    - [ "", "", Mouse Left, Mouse Down, Mouse Up, Mouse Right, "" ]
+    - [ "", "", Mouse Left, Mouse Down, Mouse Up, Mouse Right, RGB Mode+ ]
 
     # Left half: bottom row
-    - [ LShift, "", Mouse Back, "", Mouse Forward, "" ]
+    - [ LShift, "", Mouse Forward, "", Mouse Back, "" ]
     # Right half: bottom row
-    - [ "", "", "", "", "", "" ]
+    - [ "", "", "", "", "", RGB Mode- ]
 
     # Thumb keys
     - [ LCtrl, {"t": "MO L1", "type": "held"}, Space ]
